@@ -69,6 +69,7 @@ Add Toggl one-click time tracking to popular web tools.
 - [MeisterTask](https://meistertask.com/)
 - [Microsoft Planner](https://tasks.office.com/)
 - [miniCRM](https://minicrm.pl/)
+- [Naumen SMP](https://www.naumen.ru/products/smp/)
 - [Newsletter2Go](http://www.newsletter2go.com/)
 - [Nozbe](https://nozbe.com/)
 - [ONLYOFFICE](https://www.onlyoffice.com/)

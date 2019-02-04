@@ -294,6 +294,10 @@ export default {
     name: 'YouTrack',
     file: 'youtrack.js'
   },
+  'naumen.ru': {
+    url: '*://*.naumen.ru/*',
+    name: 'Naumen SMP'
+  },
   'newsletter2go.com': {
     url: '*://*.newsletter2go.com/*',
     name: 'Newsletter2go'

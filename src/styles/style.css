@@ -1422,3 +1422,158 @@ label > .toggl-button.outlook {
   visibility: visible;
   pointer-events: all;
 }
+
+/****** NAUMEN SMP ******/
+/*Version 4.11 and newer*/
+.toggl .naumen-smp-wrapper {
+  background: #f4f4f4;
+  border-radius: 2px;
+  height: 24px;
+  margin: 0 0 0 8px;
+  overflow: hidden;
+  position: relative;
+  width: 24px;
+}
+
+.toggl .naumen-smp-wrapper:hover {
+  background: #e4e4e4;
+}
+
+.toggl-button.naumen-smp.min {
+  background-repeat: no-repeat;
+  background-size: 16px !important;
+  height: 16px;
+  left: 4px;
+  padding-left: 0;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.toggl-button.naumen-smp.min:not(.active) {
+  -webkit-filter: drop-shadow(20px 0 #5F5F5F);
+  filter: drop-shadow(20px 0 #5F5F5F);
+  margin-left: -20px;
+  width: 32px;
+}
+
+.toggl-button.naumen-smp.min:not(.active):active,
+.toggl-button.naumen-smp.min:not(.active):hover {
+  -webkit-filter: drop-shadow(20px 0 #323232);
+  filter: drop-shadow(20px 0 #323232);
+}
+
+/*Version 4.10*/
+.toggl .naumen-smp-wrapper.v410:hover {
+  background: #f4f4f4;
+}
+
+.toggl-button.naumen-smp.min.scheme7.v410:not(.active) {
+  -webkit-filter: drop-shadow(20px 0 #4d92c8);
+  filter: drop-shadow(20px 0 #4d92c8);
+  opacity: 1;
+}
+
+.toggl-button.naumen-smp.min.scheme7.v410:active:not(.active),
+.toggl-button.naumen-smp.min.scheme7.v410:hover:not(.active) {
+  -webkit-filter: drop-shadow(20px 0 #0063b0);
+  filter: drop-shadow(20px 0 #0063b0);
+}
+
+.toggl .naumen-smp-wrapper.v410:not(.scheme7) {
+  background-color: unset;
+  height: 16px;
+  width: 16px;
+}
+
+.toggl-button.naumen-smp.min.v410:not(.scheme7) {
+  top: 0;
+  left: 0;
+}
+
+.toggl-button.naumen-smp.min.v410:not(.scheme7):not(.active) {
+  margin-left: -16px;
+  opacity: 0.5;
+  width: 32px;
+}
+
+.toggl-button.naumen-smp.min.v410:hover:not(.active) {
+  opacity: 1;
+}
+
+.toggl-button.naumen-smp.min.scheme6.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #a39061);
+  filter: drop-shadow(16px 0 #a39061);
+}
+
+.toggl-button.naumen-smp.min.scheme6.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #a39061);
+  filter: drop-shadow(16px 0 #a39061);
+}
+
+.toggl-button.naumen-smp.min.blue.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #1d3c6a);
+  filter: drop-shadow(16px 0 #1d3c6a);
+}
+
+.toggl-button.naumen-smp.min.blue.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #526e94);
+  filter: drop-shadow(16px 0 #526e94);
+}
+
+.toggl-button.naumen-smp.min.site.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #c5d2db);
+  filter: drop-shadow(16px 0 #c5d2db);
+}
+
+.toggl-button.naumen-smp.min.site.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #0d3a4b);
+  filter: drop-shadow(16px 0 #0d3a4b);
+}
+
+.toggl-button.naumen-smp.min.scheme1.v410:not(.active),
+.toggl-button.naumen-smp.min.scheme2.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #275eac);
+  filter: drop-shadow(16px 0 #275eac);
+}
+
+.toggl-button.naumen-smp.min.scheme2.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #ec8e2b);
+  filter: drop-shadow(16px 0 #ec8e2b);
+}
+
+.toggl-button.naumen-smp.min.scheme3.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #fff);
+  filter: drop-shadow(16px 0 #fff);
+}
+
+.toggl-button.naumen-smp.min.scheme3.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #b74f8f);
+  filter: drop-shadow(16px 0 #b74f8f);
+}
+
+.toggl-button.naumen-smp.min.scheme4.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #666);
+  filter: drop-shadow(16px 0 #666);
+}
+
+.toggl-button.naumen-smp.min.scheme5.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #0063ad);
+  filter: drop-shadow(16px 0 #0063ad);
+}
+
+.toggl-button.naumen-smp.min.scheme5.v410:hover:not(.active),
+.toggl-button.naumen-smp.min.scheme5.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #2a84b7);
+  filter: drop-shadow(16px 0 #2a84b7);
+}
+
+.toggl-button.naumen-smp.min.scheme6.v410:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #a39061);
+  filter: drop-shadow(16px 0 #a39061);
+}
+
+.toggl-button.naumen-smp.min.scheme6.v410:active:not(.active) {
+  -webkit-filter: drop-shadow(16px 0 #a39061);
+  filter: drop-shadow(16px 0 #a39061);
+}
